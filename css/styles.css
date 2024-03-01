@@ -1,18 +1,91 @@
 /* styles.css */
 body {
   font-family: Arial, sans-serif;
+  background: #2C454B;
 }
 
 .genero-container {
   margin: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #f8f8f8;
+  border: 2px solid #052021;
+  background-color: #698991;
+  ;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  color: #9DDDE1
 }
 
+h1{
+  color: #4CF2C2;
+  text-align: center;
+  font-size: 3em;
+}
+.genero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
+.actionFilm {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.actionFilm img {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+.actionFilm p {
+  margin: 0;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  width: 150px;
+}
+
+.thrillerFilm{
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.thrillerFilm img{
+  width: 150px;
+  height: auto;
+  display: block;
+}
+.thrillerFilm p {
+  margin: 0;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  width: 150px;
+}
+
+.adventureFilm{
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.adventureFilm img{
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+.adventureFilm p {
+  margin: 0;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  width: 150px;
+}
